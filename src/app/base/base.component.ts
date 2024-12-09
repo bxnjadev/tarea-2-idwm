@@ -7,5 +7,4 @@ import { Component } from '@angular/core';
   styleUrl: './base.component.css'
 })
 export class BaseComponent {
-
 }

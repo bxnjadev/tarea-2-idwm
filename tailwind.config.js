@@ -1,9 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./src/**/*.{html,ts}",
-    "./node_modules/flowbite/**/*.js" // add this line
-  ],
   theme: {
     colors: {
       transparent: 'transparent',
@@ -16,8 +12,13 @@ module.exports = {
       'silver': '#ecebff',
       'bubble-gum': '#ff77e9',
       'bermuda': '#78dcca',
+      customOrange: '#f9efef'
     },
   },
+  content: [
+    "./src/**/*.{html,ts}",
+    "./node_modules/flowbite/**/*.js" // add this line
+  ],
   plugins: [
     require('flowbite/plugin')
   ],
